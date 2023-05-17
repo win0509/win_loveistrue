@@ -130,7 +130,7 @@ function onTabs(i){
  var swiper = new Swiper(".stories-slider", {
   slidesPerView: 3,
   spaceBetween: 15,
-  centeredSlides: true,
+  // centeredSlides: true,
 
   autoplay: {
     delay: 2500,
@@ -144,6 +144,21 @@ function onTabs(i){
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
+  },
+
+  breakpoints: {
+    500: {
+      slidesPerView: 1,
+      slidesPerGroup: 1,
+    },
+    970: {
+      slidesPerView: 2,
+      slidesPerGroup: 2,
+    },
+    1600: {
+      slidesPerView: 3,
+      slidesPerGroup: 3,
+    },
   },
 });
 
