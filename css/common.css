@@ -1,0 +1,56 @@
+/* Container */
+.container {
+  padding: 7.5rem 7.875rem;
+}
+
+/* Slide More-btn */
+.more-btn {
+  width: 200px;
+  height: 60px;
+  border: 1px solid #fff;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.more-btn span {
+  display: block;
+  font-family: var(--ff-en-roboto);
+  font-size: 1.25rem;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  line-height: 60px;
+}
+
+.more-btn:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+/* Main Title */
+.title a{
+  display: block;
+  font-family: var(--ff-en-roboto);
+  font-size: 3.25rem;
+  color: #000;
+  font-weight: 400;
+  padding-bottom: 16px;
+  /* transform: translateY(-40px);
+  opacity: 0;
+  animation: title-up 1s 1;
+  animation-delay: .5s;
+  animation-fill-mode: forwards; */
+  
+}
+/* 
+@keyframes title-up{
+  0%{
+    transform: translateY(-40px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+} */
+

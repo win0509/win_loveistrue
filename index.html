@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LoveIstrue</title>
+    <!-- Swiper CDN CSS LINK -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Css Main Style-->
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/responsive.css">
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="header-wrapper">
+        <div class="logo">
+          <img src="./images/logo.png" alt="로고" />
+        </div>
+
+        <div class="nav-wrapper">
+          <div class="nav-bar">
+            <ul class="nav-menu">
+              <li><a href="#">About</a></li>
+              <li><a href="#">shopping</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Lookbook</a></li>
+              <li><a href="#">Press</a></li>
+            </ul>
+            <ul class="nav-info">
+              <li><a href="#">Login</a></li>
+              <li><a href="#">My page</a></li>
+              <div class="info-menu-icon">
+                <img src="./images/ico-header-menu.png" alt="메뉴 아이콘" />
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Overlay Menu -->
+    <div class="overlay">
+      <div class="overlay-menus-box">
+        <div class="overlay-close">
+          <a href="#">Close</a>
+        </div>
+        <div class="overlay-nav-menu">
+          <ul>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">GLOBAL SHOPPING</a></li>
+            <li><a href="#">SHOP</a></li>
+            <li><a href="#">LOOKBOOK</a></li>
+            <li><a href="#">PRESS</a></li>
+            <li><a href="#">LOING</a></li>
+            <li><a href="#">MY PAGE</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <main>
+    <!-- Swiper Landing Slider -->
+    <section class="container landing-slider-page">
+      <div class="swiper mySwiper landing-slider">
+        <div class="swiper-wrapper landing-slides">
+          <div class="swiper-slide landing-slide">
+            <div class="landing-img">
+              <img src="./images/slider-1.jpeg" alt="첫번째 랜딩슬라이드" />
+            </div>
+            <div class="landing-box">
+              <div class="landing-text">
+                <p>2023 SPRING</p>
+                <em>#반팔 #자켓 #바람막이</em>
+              </div>
+              <div class="more-btn">
+                <span>Show now</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide landing-slide">
+            <div class="landing-img">
+              <img src="./images/slider-2.jpeg" alt="두번째 랜딩슬라이드" />
+            </div>
+            <div class="landing-box">
+              <div class="landing-text">
+                <p>NEW ARRIVAL</p>
+                <em>#원피스 #투피스 #코트</em>
+              </div>
+              <div class="more-btn">
+                <span>Show now</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide landing-slide">
+            <div class="landing-img">
+              <img src="./images/slider-3.jpeg" alt="세번째 랜딩슬라이드" />
+            </div>
+            <div class="landing-box">
+              <div class="landing-text">
+                <p>BEST</p>
+                <em>#의류 #액세서리 #가방</em>
+              </div>
+              <div class="more-btn">
+                <span>Show now</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide landing-slide">
+            <div class="landing-img">
+              <img src="./images/slider-4.jpeg" alt="" />
+            </div>
+            <div class="landing-box">
+              <div class="landing-text">
+                <p>STYLING</p>
+                <em>#반팔 #자켓 #바람막이</em>
+              </div>
+              <div class="more-btn">
+                <span>Show now</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide landing-slide">
+            <div class="landing-img">
+              <img src="./images/slider-5.jpeg" alt="" />
+            </div>
+            <div class="landing-box">
+              <div class="landing-text">
+                <p>LOVEISTRUE</p>
+                <em>#반팔 #자켓 #바람막이</em>
+              </div>
+              <div class="more-btn">
+                <span>Show now</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide landing-slide">
+            <div class="landing-img">
+              <img src="./images/slider-6.jpeg" alt="" />
+            </div>
+            <div class="landing-box">
+              <div class="landing-text">
+                <p>NEW S/S</p>
+                <em>#반팔 #자켓 #바람막이</em>
+              </div>
+              <div class="more-btn">
+                <span>Show now</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+
+    <!--  Ranking Slide Page-->
+    <section class="container ranking-slide-page">
+      
+      <div class="title" data-aos="fade-right" data-aos-duration="900" data-aos-offset="50">
+        <a href="#">RANKING</a>
+      </div>
+      <div class="ranking-button">
+        <div class="swiper-button-prev ranking-prev"></div>
+        <div class="swiper-button-next ranking-next"></div>
+     </div>
+   
+      <div class="swiper mySwiper ranking-slider">
+        <div class="swiper-wrapper ranking-slides">
+          <div class="swiper-slide ranking-slide">
+            <div class="ranking-img">
+              <img src="./images/ranking-1.jpeg" alt="랭킹 1위 티셔츠">
+              <div class="ranking-number">
+                <span>1</span>
+              </div>
+            </div> 
+            <div class="name-box">
+              <h2>VL L LOGO TEE</h2>
+              <p>40,500원</p>
+              <div class="color-box color-box-1">
+                <div class="color"></div>
+                <div class="color"></div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide ranking-slide">
+            <div class="ranking-img">
+              <img src="./images/ranking-2.jpeg" alt="랭킹 2위 맨투맨">
+              <div class="ranking-number">
+                <span>2</span>
+              </div>
+            </div> 
+            <div class="name-box">
+              <h2>VL STAR MTM</h2>
+              <p>71,100원</p>
+              <div class="color-box color-box-2">
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide ranking-slide">
+            <div class="ranking-img">
+              <img src="./images/ranking-3.jpeg" alt="랭킹 3위 맨투맨">
+              <div class="ranking-number">
+                <span>3</span>
+              </div>
+            </div> 
+            <div class="name-box">
+              <h2>VL STAR MTM</h2>
+              <p>71,100원</p>
+              <div class="color-box color-box-3">
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide ranking-slide">
+            <div class="ranking-img">
+              <img src="./images/ranking-4.jpeg" alt="랭킹 4위 자켓">
+              <div class="ranking-number">
+                <span>4</span>
+              </div>
+            </div> 
+            <div class="name-box">
+              <h2>VL CROP JACKET</h2>
+              <p>143,100원</p>
+              <div class="color-box color-box-4">
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide ranking-slide">
+            <div class="ranking-img">
+              <img src="./images/ranking-5.jpeg" alt="랭킹 5위 모자">
+              <div class="ranking-number">
+                <span>5</span>
+              </div>
+            </div> 
+            <div class="name-box">
+              <h2>VL BLINK BEANIE</h2>
+              <p>35,100원</p>
+              <div class="color-box color-box-5">
+                <div class="color"></div>
+                <div class="color"></div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide ranking-slide">
+            <div class="ranking-img">
+              <img src="./images/ranking-6.jpeg" alt="랭킹 6위 모자">
+              <div class="ranking-number">
+                <span>6</span>
+              </div>
+            </div> 
+            <div class="name-box">
+              <h2>VL BLINK BEANIE</h2>
+              <p>35,100원</p>
+              <div class="color-box color-box-6">
+                <div class="color"></div>
+                <div class="color"></div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide ranking-slide">
+            <div class="ranking-img">
+              <img src="./images/ranking-7.jpeg" alt="랭킹 7위 니트">
+              <div class="ranking-number">
+                <span>7</span>
+              </div>
+            </div> 
+            <div class="name-box">
+              <h2>VL 2D CAT KNIT</h2>
+              <p>80,100원</p>
+              <div class="color-box color-box-7">
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide ranking-slide">
+            <div class="ranking-img">
+              <img src="./images/ranking-8.jpeg" alt="랭킹 8위 가디건">
+              <div class="ranking-number">
+                <span>8</span>
+              </div>
+            </div> 
+            <div class="name-box">
+              <h2>MZ CARDIGAN</h2>
+              <p>64,800원</p>
+              <div class="color-box color-box-8">
+                <div class="color"></div>
+                <div class="color"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <!-- New Arrival -->
+    <section class="container arrival-page">
+      <div class="title-btn-box">
+        <div class="title" data-aos="fade-right" data-aos-duration="900" data-aos-offset="50">
+          <a href="#">NEW ARRIVAL</a>
+        </div>
+        <div class="arrival-tab-btns">
+          <button class="arrival-tab-btn on">Clothes</button>
+          <button class="arrival-tab-btn">Accessory</button>
+        </div>
+      </div>
+        <div class="arrival-panels-wrapper">
+          <div class="arrival-panels clothes-panels on">
+            <div class="arrival-img-box">
+              <img src="./images/main-clothes.jpeg" alt="신상품 메인의류">
+            </div>
+            <div class="arrival-item-box">
+              <div class="item-top-box">
+                <div class="item-img item-img-1">
+                  <img src="./images/clothes-1.jpeg" alt="신상품 후드집업">
+                  <div class="item-img-txt">
+                    <p>DN KNIT ZIP UP</p>
+                    <span>88,200원</span>
+                  </div>
+                </div>
+                <div class="item-img item-img-2">
+                  <img src="./images/clothes-2.jpeg" alt="신상품 티셔츠">
+                  <div class="item-img-txt">
+                      <p>DN LAYERED TEE</p>
+                      <span>42,300원</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-bottom-box">
+                <div class="item-img item-img-3">
+                  <img src="./images/clothes-3.jpeg" alt="신상품 바지">
+                  <div class="item-img-txt">
+                    <p>DDN STAR PANTS</p>
+                    <span>128,700원</span>
+                </div>
+                </div>
+                <div class="item-img item-img-4">
+                  <img src="./images/clothes-4.jpeg" alt="신상품 바지">
+                  <div class="item-img-txt">
+                    <p>DN STAR PANTS</p>
+                    <span>128,700원</span>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="arrival-panels accessory-panels">
+            <div class="arrival-img-box">
+              <img src="./images/main-acessory.jpeg" alt="신상품 메인악세사리">
+            </div>
+            <div class="arrival-item-box">
+              <div class="item-top-box">
+                <div class="item-img item-img-1">
+                  <img src="./images/accessory-1.jpeg" alt="신상품 키링">
+                  <div class="item-img-txt">
+                    <p>DN STONE KEYRING</p>
+                    <span>27,900원</span>
+                  </div>
+                </div>
+                <div class="item-img item-img-2">
+                  <img src="./images/accessory-2.jpeg" alt="신상품 머리핀">
+                  <div class="item-img-txt">
+                      <p>DN TWINKLE PIN</p>
+                      <span>10,800원</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-bottom-box">
+                <div class="item-img item-img-3">
+                  <img src="./images/accessory-3.jpeg" alt="신상품 가방">
+                  <div class="item-img-txt">
+                    <p>DN CROSS BAG</p>
+                    <span>83,700원</span>
+                </div>
+                </div>
+                <div class="item-img item-img-4">
+                  <img src="./images/accessory-4.jpeg" alt="신상품 키링">
+                  <div class="item-img-txt">
+                    <p>DN STAR PANTS</p>
+                    <span>128,700원</span>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Animation section -->
+    <section class="animation-sec">
+      <div class="animation-box">
+        <div class="ani-1">
+          <img src="./images/ani-1.png" alt="자동 애니메이션">
+        </div>
+        <div class="ani-2">
+          <img src="./images/ani-2.png" alt="자동 애니메이션">
+        </div>
+      </div>
+    </section>
+
+    <!-- Styling section -->
+    <section class="container styling-page">
+      <div class="title" data-aos="fade-right" data-aos-duration="900" data-aos-offset="50">
+        <a href="#">LOVEISTRUE STYLING</a>
+      </div>
+      <div class="styling-wrapper">
+        <div class="styling-item-wrap">
+          <div class="styling-item">
+            <img src="./images/styling-1.png" alt="스타일링 더 보기">
+            <div class="show-btn">
+              <span>Styling Now</span>
+            </div>
+          </div>
+          <div class="styling-item">
+            <img src="./images/styling-2.png" alt="스타일링 더 보기 ">
+            <div class="show-btn">
+              <span>Styling Now</span>
+            </div>
+          </div>
+          <div class="styling-item">
+            <img src="./images/styling-3.png" alt="스타일링 더 보기">
+            <div class="show-btn">
+              <span>Styling Now</span>
+            </div>
+          </div>
+          <div class="styling-item">
+            <img src="./images/styling-4.png" alt="스타일링 더 보기">
+            <div class="show-btn">
+              <span>Styling Now</span>
+            </div>
+          </div>
+          <div class="styling-item">
+            <img src="./images/styling-5.png" alt="스타일링 더 보기">
+            <div class="show-btn">
+              <span>Styling Now</span>
+            </div>
+          </div>
+          <div class="styling-item">
+            <img src="./images/styling-6.png" alt="스타일링 더 보기">
+            <div class="show-btn">
+              <span>Styling Now</span>
+            </div>
+          </div>
+        </div>
+        <div class="styling-text-btn">
+          <h2 data-aos="fade-down" data-aos-duration="1000" data-aos-offset="10">러브이즈트루 23 봄 컬렉션</h2>
+          <p data-aos="fade-down" data-aos-duration="1100" data-aos-offset="100">‘DAY NIGHT’은 낮과 밤이 상반 양면성의 이미지를 제시하였다.<br>
+            낮에는 발랄한 소녀 같은 모습, 밤에는 스파이의 문화를 러브이즈트루만의 디자인으 선보였다.</p>
+            <div class="styling-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="150"><span>More</span></div>
+        </div> 
+      </div>
+    </section>
+
+    <!-- Style in SNS -->
+    <section class="container style-sns-page">
+      <div class="title-btn-box">
+        <div class="title" data-aos="fade-right" data-aos-duration="900" data-aos-offset="50">
+          <a href="#">STYLE IN SNS</a>
+        </div>
+        <div class="style-sns-btn">+</div>
+      </div>
+        
+      <div class="style-sns-wrapper">
+        <div class="style-sns-wrap">
+            <div class="sns-main-img"><img src="./images/sns-main-1.jpeg" alt="트와이스 나연 니트 착용사진"></div>
+            <div class="sns-name"><p>트와이스 나연</p></div>
+            <div class="sns-item-box">
+              <div class="sns-item-img"><img src="./images/sns-item-1.jpeg" alt="볼레로 세트"></div>
+              <div class="sns-item-txt">
+                <p>DN ANGORA BOLERO SET(SKY BLUE)</p>
+                <p>104,000원</p>
+              </div>
+            </div>
+            <div class="sns-item-box">
+              <div class="sns-item-img"><img src="./images/sns-item-2.jpeg" alt="블랙 반팔 티셔츠"></div>
+              <div class="sns-item-txt">
+                <p>DN PRINT SOCCER TEE(BLACK)</p>
+                <p>36,900원</p>
+              </div>
+            </div>
+            <div class="sns-item-box">
+              <div class="sns-item-img"><img src="./images/sns-item-3.jpeg" alt="흰색 반팔 티셔츠"></div>
+              <div class="sns-item-txt">
+                <p>DN BOARD TEE(WHITE)</p>
+                <p>36,900원</p>
+              </div>
+            </div>
+        </div>
+
+        <div class="style-sns-wrap">
+          <div class="sns-main-img"><img src="./images/sns-main-2.jpeg" alt="우주소녀 다영"></div>
+          <div class="sns-name"><p>우주소녀 다영</p></div>
+          <div class="sns-item-box">
+            <div class="sns-item-img"><img src="./images/sns-item-4.jpeg" alt="볼레로 세트"></div>
+            <div class="sns-item-txt">
+              <p>MZ LVT VARCITY JACKET(BLUE)</p>
+              <p>227,700원</p>
+            </div>
+          </div>
+          <div class="sns-item-box">
+            <div class="sns-item-img"><img src="./images/sns-item-5.jpeg" alt="볼레로 세트"></div>
+            <div class="sns-item-txt">
+              <p>DN ANGORA BOLERO SET(WHITE)</p>
+              <p>104,100원</p>
+            </div>
+          </div>
+          <div class="sns-item-box">
+            <div class="sns-item-img"><img src="./images/sns-item-6.jpeg" alt="볼레로 세트"></div>
+            <div class="sns-item-txt">
+              <p>OW GLITTER JOGGER(BLACK)</p>
+              <p>70,400원</p>
+            </div>
+          </div>
+      </div>
+
+      <div class="style-sns-wrap">
+        <div class="sns-main-img"><img src="./images/sns-main-3.jpeg" alt="뉴진스 민지"></div>
+        <div class="sns-name"><p>뉴진스 민지</p></div>
+        <div class="sns-item-box">
+          <div class="sns-item-img"><img src="./images/sns-item-7.jpeg" alt="볼레로 세트"></div>
+          <div class="sns-item-txt">
+            <p>VL 2D CAT KNIT(WHITE)</p>
+            <p>81,100원</p>
+          </div>
+        </div>
+        <div class="sns-item-box"></div>
+        <div class="sns-item-box"></div>
+     </div>
+
+    <div class="style-sns-wrap">
+      <div class="sns-main-img"><img src="./images/sns-main-4.jpeg" alt="현아"></div>
+      <div class="sns-name"><p>현아</p></div>
+      <div class="sns-item-box">
+        <div class="sns-item-img"><img src="./images/sns-item-8.jpeg" alt="볼레로 세트"></div>
+        <div class="sns-item-txt">
+          <p>DN PIPING SKIRT(BLACK)</p>
+          <p>74,700원</p>
+        </div>
+      </div>
+      <div class="sns-item-box">
+        <div class="sns-item-img"><img src="./images/sns-item-9.jpeg" alt="볼레로 세트"></div>
+        <div class="sns-item-txt">
+          <p>DN DENIM SKIRT(BLUE)</p>
+          <p>66,600원</p>
+        </div>
+      </div>
+      <div class="sns-item-box">
+      </div>
+  </div>
+      </div>
+    </section>
+
+    <!--  Best Stories -->
+    <section class="container stories-page">
+      <div class="title" data-aos="fade-right" data-aos-duration="900" data-aos-offset="50">
+        <a href="#">BEST STORIES</a>
+      </div>
+      <div class="swiper mySwiper stories-slider">
+        <div class="swiper-wrapper stories-slides">
+          <div class="swiper-slide stories-slide">
+            <div class="stories-img">
+              <img src="./images/story-1.jpeg" alt="">
+            </div>
+            <div class="stories-text">
+              <p class="head">What is Lorem Ipsum?</p>
+              <p class="sub-txt">
+                Lorem Ipsum is simply dummy text of the 
+                printing and typesetting industry. 
+                Lorem Ipsum has been the industry's 
+                standard dummy text ever since the ...
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide stories-slide">
+            <div class="stories-img">
+              <img src="./images/story-2.jpeg" alt="">
+            </div>
+            <div class="stories-text">
+              <p class="head">What is Lorem Ipsum?</p>
+              <p class="sub-txt">
+                Lorem Ipsum is simply dummy text of the 
+                printing and typesetting industry. 
+                Lorem Ipsum has been the industry's 
+                standard dummy text ever since the ...
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide stories-slide">
+            <div class="stories-img">
+              <img src="./images/story-3.jpeg" alt="">
+            </div>
+            <div class="stories-text">
+              <p class="head">What is Lorem Ipsum?</p>
+              <p class="sub-txt">
+                Lorem Ipsum is simply dummy text of the 
+                printing and typesetting industry. 
+                Lorem Ipsum has been the industry's 
+                standard dummy text ever since the ...
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide stories-slide">
+            <div class="stories-img">
+              <img src="./images/story-4.jpeg" alt="">
+            </div>
+            <div class="stories-text">
+              <p class="head">What is Lorem Ipsum?</p>
+              <p class="sub-txt">
+                Lorem Ipsum is simply dummy text of the 
+                printing and typesetting industry. 
+                Lorem Ipsum has been the industry's 
+                standard dummy text ever since the ...
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide stories-slide">
+            <div class="stories-img">
+              <img src="./images/story-5.jpeg" alt="">
+            </div>
+            <div class="stories-text">
+              <p class="head">What is Lorem Ipsum?</p>
+              <p class="sub-txt">
+                Lorem Ipsum is simply dummy text of the 
+                printing and typesetting industry. 
+                Lorem Ipsum has been the industry's 
+                standard dummy text ever since the ...
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide stories-slide">
+            <div class="stories-img">
+              <img src="./images/story-6.jpeg" alt="">
+            </div>
+            <div class="stories-text">
+              <p class="head">What is Lorem Ipsum?</p>
+              <p class="sub-txt">
+                Lorem Ipsum is simply dummy text of the 
+                printing and typesetting industry. 
+                Lorem Ipsum has been the industry's 
+                standard dummy text ever since the ...
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="swiper-pagination stories-pagination"></div> -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="container">
+    <div class="footer-wrapper">
+      <ul class="footer-top">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">GUIDE</a></li>
+        <li><a href="#">TERMS</a></li>
+        <li><a href="#">PRIVACY</a></li>
+        <li><a href="#">TRACKING</a></li>
+      </ul>
+
+      <div class="footer-center">
+        <p><strong>Company.</strong>주식회사 러브이즈트루</p>
+        <p><strong>Address.</strong>26, Dasan-ro 6-gil, Jung-gu, Seoul, Republic of Korea</p>
+        <p><strong>Business License.</strong>123-45-64789</p>
+        <p><strong>Mail Order License.</strong>제 2023-서울중구-1234 호</p>
+        <p><strong>Owner.</strong>abc Lee Email.abc123@gmail.com</p>
+        <p>Mon - Fri am 09 - pm 06.Sat -Sun & Holiday off Lunch. 12 : 00 pm - 1 : 00 pm</p>
+        <p><strong>Call.</strong>01 123 4567</p>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-img">
+          <img src="./images/logo.png" alt="">
+        </div>
+        <p>© 2021 LUVISTRUE site by flatcode</p>
+      </div>
+
+      <div class="footer-info-wrapper">
+        <div class="footer-info-item">
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-google"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <div class="top-btn">
+    <p>TOP</p>
+  </div>
+
+
+  <!-- Font awesome -->
+  <script src="https://kit.fontawesome.com/8f976a5b78.js" crossorigin="anonymous"></script>
+    <!-- Swiper CDN JS LINK -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <!-- Swiper CURSTOM JS LINK -->
+     <script src="./js/curstom.js"></script>
+  
+  </body>
+</html>

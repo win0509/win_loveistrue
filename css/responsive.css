@@ -1,0 +1,329 @@
+
+
+
+@media screen and (max-width:1420px){
+    /* container */
+    .container{
+        padding-left: 5.875rem;
+        padding-right: 5.875rem;
+    }
+    /* header */
+    header .logo{
+        width: 100px;
+        height: 66px;
+    }
+    header .nav-bar{
+        padding-left: 5.875rem;
+        padding-right: 5.875rem;
+    }
+    header .nav-bar a{
+        font-size: 1.3rem;
+    }
+    header .nav-menu {
+        column-gap: 1.5rem;
+      }
+    header .nav-info{
+        column-gap: 1.5rem;
+    }
+    /* landing */
+    .landing-slide .landing-box .landing-text p{
+        font-size: 2rem;
+    }
+    .landing-slide .landing-box .landing-text em{
+        font-size: 1rem;
+        padding-bottom: 20px;
+    }
+    .more-btn{
+        width: 180px;
+        height: 55px;
+    }
+    .more-btn span{
+        line-height: 55px;
+    }
+    /* Styling */
+    .styling-item-wrap{
+        row-gap: 1.5rem;
+        column-gap: 1.5rem;
+    }
+    .styling-item-wrap .styling-item{
+        height: 500px;
+    }
+    .show-btn{
+        width: 220px;
+        height: 70px;
+    }
+    .show-btn span{
+        line-height: 70px;
+        font-size: 1.2rem;
+    }
+} /*end*/
+
+
+
+@media screen and (max-width:1180px){
+    .container{
+        padding: 5.5rem 3.875rem;
+    }
+    header .header-wrapper{
+        height: 90px;
+    }
+    
+    header .nav-bar{
+        padding: 1.875rem 3.875rem;
+    }
+    header .logo{
+        width: 80px;
+        height: 46px;
+    }
+    header .nav-bar a{
+       font-size: 1.2rem;
+    }
+    header .nav-menu {
+        column-gap: 1rem;
+      }
+    header .nav-info{
+        column-gap: 1rem;
+    }
+    .landing-slide .landing-box .landing-text p{
+        font-size: 1.8rem;
+    }
+    .landing-slide .landing-box .landing-text em{
+        font-size: 1rem;
+        padding-bottom: 20px;
+    }
+    .more-btn{
+        width: 170px;
+        height: 50px;
+    }
+    .more-btn span{
+        line-height: 50px;
+    }
+   .title a{
+    font-size: 2.5rem;
+   }
+
+   /* new arrlval */
+   .arrival-panels{
+    display: block;
+   }
+   .arrival-panels .arrival-img-box{
+    width: 100%;
+   }
+   .arrival-panels .arrival-item-box{
+    width: 100%;
+   }
+   .arrival-tab-btns .arrival-tab-btn{
+    width: 100px;
+    height: 50px;
+   }
+
+   /* styling */
+   .styling-item-wrap{
+    row-gap: 1rem;
+    column-gap: 1rem;
+}
+   .styling-item-wrap .styling-item{
+    height: 350px;
+}
+.styling-wrapper .styling-text-btn{
+    row-gap: 1.5rem;
+}
+.styling-wrapper .styling-text-btn h2{
+    font-size: 2.5rem;
+}
+.styling-wrapper .styling-text-btn p{
+    font-size: 1.3rem;
+}
+.styling-wrapper .styling-text-btn .styling-btn{
+    width: 160px;
+    height: 60px;
+}
+.styling-wrapper .styling-text-btn .styling-btn span{
+    font-size: 1.5rem;
+    line-height: 60px;    
+}
+.styling-wrapper .styling-text-btn{
+    padding-top: 80px;
+}
+} /*end*/
+
+
+@media screen and (max-width:970px){
+    .container{
+        padding: 5.5rem 1.875rem;
+    }
+    header .nav-bar{
+        padding: 1.875rem 1.875rem;
+    }
+    header .nav-menu{
+        opacity: 0;
+    }
+
+    .landing-slide{
+        height: 800px;
+    }
+
+    .landing-slide .landing-box .landing-text p{
+        font-size: 3rem;
+    }
+    .landing-slide .landing-box .landing-text em{
+        font-size: 1.5rem;
+        padding-bottom: 20px;
+    }
+    .more-btn{
+        width: 220px;
+        height: 70px;
+    }
+    .more-btn span{
+        font-size: 1.5rem;
+        line-height: 70px;
+    }
+    .ranking-button{
+        display: none;
+    }
+
+    /* styling */
+    .styling-item-wrap{
+        column-gap: 0;
+    }
+    .styling-item-wrap .styling-item{
+       width: calc(50% - 1rem);
+       height: 550px;
+    }
+    .styling-item:nth-child(3),.styling-item:nth-child(6){
+        display: none;
+    }
+
+
+}/*end*/
+
+@media screen and (max-width:650px){
+    .container{
+        padding: 4.5rem .875rem;
+    }
+    header .header-wrapper{
+        height: 70px;
+    }
+    header .nav-bar{
+        padding: 1.5rem .875rem;
+    }
+    header .nav-bar a{
+        font-size: 12px;
+    }
+    header .nav-info{
+        column-gap: .5rem;
+    }
+    header .logo{
+        width: 60px;
+        height: 36px;
+    }
+    .title a{
+        font-size: 2rem;
+       }
+
+    .landing-slide .landing-box {
+        left: 10%;
+        bottom: 10%;
+
+    }
+    .landing-slide .landing-box .landing-text p{
+        font-size: 2.5rem;
+    }
+    .landing-slide .landing-box .landing-text em{
+        font-size: 1.5rem;
+        padding-bottom: 20px;
+    }
+
+    /* new arrlval */
+   .arrival-panels .arrival-item-box{
+        display: block;
+        column-gap: 1rem;
+        padding: 1rem;
+   }
+   .arrival-panels .arrival-item-box .item-top-box, .arrival-panels .arrival-item-box .item-bottom-box{
+        row-gap: 1rem;
+   }
+   .arrival-tab-btns .arrival-tab-btn{
+    width: 80px;
+    height:40px;
+    font-size: 14px;
+   }
+   .arrival-tab-btns{
+    column-gap: .5rem;
+   }
+
+   /* styling */
+   .styling-item-wrap{
+    display: block;
+   }
+   .styling-item:nth-child(1),.styling-item:nth-child(4){
+    display: none;
+    }
+    .styling-item-wrap .styling-item{
+        width: 100%;
+        height: 682px;
+    }
+    .styling-item:nth-child(2){
+        margin-bottom: 1rem;
+    }
+    .show-btn{
+        width: 250px;
+        height: 80px;
+      }
+      .show-btn span{
+        line-height: 80px;
+        font-size: 1.5rem;
+      }
+      .styling-wrapper .styling-text-btn h2{
+        font-size: 2rem;
+      }
+      .styling-wrapper .styling-text-btn p{
+        font-size: 1.2rem;
+        word-wrap: break-word;
+        width: 94%;
+      }
+
+}/*end*/
+
+@media screen and (max-width:500px){
+    .landing-slide .landing-box {
+        left: 10%;
+        bottom: 20%;
+
+    }
+    .more-btn{
+        width: 200px;
+        height: 60px;
+    }
+    .more-btn span{
+        font-size: 1.2rem;
+        line-height: 60px;
+    }
+
+
+    .arrival-panels .arrival-item-box{
+        column-gap: .8rem;
+        padding: .8rem;
+   }
+   .arrival-panels .arrival-item-box .item-top-box, .arrival-panels .arrival-item-box .item-bottom-box{
+        row-gap: .8rem;
+   }
+   
+
+   .styling-item-wrap .styling-item{
+    height: 550px;
+}
+.styling-wrapper .styling-text-btn p {
+    font-size: 1rem;
+    word-wrap: break-word;
+    width: 92%;
+}
+.styling-wrapper .styling-text-btn .styling-btn{
+    width: 130px;
+    height: 50px;
+}
+.styling-wrapper .styling-text-btn .styling-btn span{
+    line-height: 50px;
+    font-size: 1.2rem;
+}
+}
