@@ -51,7 +51,7 @@ var swiper = new Swiper(".landing-slider", {
 
   breakpoints: {
   
-    375: {
+    300: {
     
       slidesPerView: 1,
       slidesPerGroup: 1,
@@ -82,7 +82,7 @@ var swiper = new Swiper(".ranking-slider", {
   },
 
   breakpoints: {
-    500: {
+    300: {
       slidesPerView: 1,
       slidesPerGroup: 1,
     },
@@ -147,7 +147,7 @@ function onTabs(i){
   },
 
   breakpoints: {
-    500: {
+    300: {
       slidesPerView: 1,
       slidesPerGroup: 1,
     },
