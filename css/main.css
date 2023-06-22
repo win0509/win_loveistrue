@@ -475,6 +475,7 @@ position: relative;
 }
 .ani-2.clonebottom {
 	animation: rollingright2 90s linear infinite;
+  margin-left: -1px;
 }
 
 @keyframes rollingright1 {
