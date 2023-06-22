@@ -429,54 +429,64 @@ position: relative;
   width: 100%;
   
 }
-.animation-box{
+.animation-box-t,.animation-box-b{
   width: 100%;
   overflow: hidden;
+  display: flex;
 }
 .animation-sec .animation-box .ani-1{
   width: 100%;
   height: 110px;
-  /* background-image: url(/loveistrue/images/ani-1.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  animation: ani-1 50s infinite linear; */
-  /* overflow: hidden; */
-  
-}
-.animation-sec .animation-box .ani-1 img{
-  animation: ani-1 50s infinite linear;
 }
 
 .animation-sec .animation-box .ani-2{
   width: 100%;
   height: 110px;
-  /* background-image: url(/loveistrue/images/ani-2.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  animation: ani-2 50s infinite linear; */
-  
-}
-.animation-sec .animation-box .ani-2 img{
-  animation: ani-2 50s infinite linear;
 }
 
-@keyframes ani-1{
-  0%{
-    transform: translateX(0);
-  }
-  100%{
-    transform: translateX(-5967px);
-  }
+/******* Animation-sec roller Style ********/
+/* Top */
+.ani-1.originaltop {
+	animation: rollingleft1 100s linear infinite;
 }
-@keyframes ani-2{
-  0%{
-    transform: translateX(0);
-  }
-  100%{
-    transform: translateX(6042px);
-  }
+.ani-1.clonetop {
+	animation: rollingleft2 100s linear infinite;
+}
+
+@keyframes rollingleft1 {
+	0% { transform: translateX(0); } 
+    /* 배너1, 배너2 왼쪽으로 이동 애니메이션 */
+	50% { transform: translateX(-100%); }
+    /* 배너1은 뷰포트 너머로 가려지게 됨 */
+	50.01% { transform: translateX(100%); }
+    /* 배너1 오른쪽 뷰포트 너머로 이동 */
+	100% { transform: translateX(0); }
+    /* 원래의 위치로 이동 */
+}
+
+@keyframes rollingleft2 {
+	0% { transition: translateX(0); }
+	100% { transform: translateX(-200%); }
+}
+
+/* Bottom */
+.ani-2.originalbottom {
+	animation: rollingright1 90s linear infinite;
+}
+.ani-2.clonebottom {
+	animation: rollingright2 90s linear infinite;
+}
+
+@keyframes rollingright1 {
+	0% { transform: translateX(0); } 
+	50% { transform: translateX(-100%); }
+	50.01% { transform: translateX(100%); }
+	100% { transform: translateX(0); }
+}
+
+@keyframes rollingright2 {
+	0% { transition: translateX(0); }
+	100% { transform: translateX(-200%); }
 }
 
 /**************** Styling Style ***************/

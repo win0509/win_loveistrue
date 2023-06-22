@@ -101,6 +101,37 @@ var swiper = new Swiper(".ranking-slider", {
   },
 });
 
+//----------------Animation roller Style top-----------------
+//롤링 배너 복제본 생성
+let rollertop = document.querySelector('.ani-1');
+rollertop.id = 'rollertop'; // 아이디 부여
+
+let clonetop = rollertop.cloneNode(true); // cloneNode : 노드 복제. 기본값은 false. 자식 노드까지 복제를 원하면 true 사용 
+clonetop.id = 'rollertop';
+document.querySelector('.animation-box-t').appendChild(clonetop);  //news-wrapper 하위 자식으로 부착
+
+document.querySelector('#rollertop').style.left= '0px';
+document.querySelector('#rollertop').style.left= document.querySelector('.ani-1').offsetWidth + 'px';
+// offsetWidth : 요소의 크기 확인(margin을 제외한 padding값, border값까지 계산한 값)
+rollertop.classList.add('originaltop');
+clonetop.classList.add('clonetop');
+
+//----------------Animation roller Style bottom------------------
+//롤링 배너 복제본 생성
+let rollerbottom = document.querySelector('.ani-2');
+rollerbottom.id = 'rollerbottom'; // 아이디 부여
+
+let clonebottom = rollerbottom.cloneNode(true); // cloneNode : 노드 복제. 기본값은 false. 자식 노드까지 복제를 원하면 true 사용 
+clonebottom.id = 'rollerbottom';
+document.querySelector('.animation-box-b').appendChild(clonebottom);  //news-wrapper 하위 자식으로 부착
+
+document.querySelector('#rollerbottom').style.left= '0px';
+document.querySelector('#rollerbottom').style.left= document.querySelector('.ani-2').offsetWidth + 'px';
+// offsetWidth : 요소의 크기 확인(margin을 제외한 padding값, border값까지 계산한 값)
+rollerbottom.classList.add('originalbottom');
+clonebottom.classList.add('clonebottom');
+
+
 //------------ New Arrival section--------------------
 const arrivalBtn = document.querySelectorAll('.arrival-tab-btn');
 const arrivalPanels = document.querySelectorAll('.arrival-panels');
