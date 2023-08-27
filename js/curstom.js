@@ -13,8 +13,24 @@ if (scry > 0){
  }
 });
 
+//------------------ Sub Menu Hide And Show------------------
+// const NavList = document.querySelector('.nav-bar > .nav-menu')
 
+// NavList.addEventListener('mouseover', function(){
+//   NavList.querySelectorAll(".sub-menu").forEach((sub) => {
+//     sub.style.display= "block";
 
+//   });
+//   document.querySelector("header").classList.add("on");
+// })
+
+// NavList.addEventListener('mouseout', function(){
+//   NavList.querySelectorAll(".sub-menu").forEach((sub) => {
+//     sub.style.display= "none";
+
+//   });
+//   document.querySelector("header").classList.remove("on");
+// })
 //------------------ Overlay Menu Hide And Show------------------
 const MenuIcon = document.querySelector(".info-menu-icon");
 const Overlay = document.querySelector(".overlay");
@@ -47,6 +63,7 @@ var swiper = new Swiper(".landing-slider", {
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
+  
   },
 
   breakpoints: {
@@ -58,7 +75,7 @@ var swiper = new Swiper(".landing-slider", {
     },
     970: {
       slidesPerView: 3,
-      slidesPerGroup: 3,
+      slidesPerGroup: 1,
     },
   },
 });
@@ -96,7 +113,7 @@ var swiper = new Swiper(".ranking-slider", {
     },
     1180: {
       slidesPerView: 4,
-      slidesPerGroup: 4,
+      slidesPerGroup: 1,
     },
   },
 });

@@ -35,8 +35,10 @@ header .nav-bar {
 }
 header .nav-bar a {
   font-size: 1.5rem;
+  font-family: var(--ff-kr-roboto);
   color: #000;
   transition: all 0.1s;
+  
 }
 header .nav-bar a:hover {
   border-bottom: 2px solid #000;
@@ -45,6 +47,9 @@ header .nav-bar a:hover {
 header .nav-menu {
   display: flex;
   column-gap: 2rem;
+}
+header .nav-menu > li{
+  position: relative;
 }
 
 header .nav-info {
@@ -58,6 +63,47 @@ header .info-menu-icon {
   height: 30px;
   cursor: pointer;
 }
+
+
+header .sub-menu{
+  width: 100%;
+  /* background-color: #fff; */
+  height: 150px;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  z-index: 99;
+  display: none;
+  /* transition: all .3s; */
+}
+header .sub-menu > li{
+  padding-bottom: 12px;
+}
+header .sub-menu > li > a{
+  width: 100%;
+  display: block;
+  font-size: .7rem;
+  font-family: var(--ff-kr-roboto);
+  color: #000;
+}
+
+header::after{
+  content: '';
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  background-color: #fff;
+  position: absolute;
+  top: 120px;
+  left: 0;
+  transition: all .6s;
+  z-index: 9;
+  display: none;
+}
+header.on::after{
+  display: block;
+}
+
 
 
 /**************** Swiper Landing Slider Style **************8*/
@@ -475,7 +521,6 @@ position: relative;
 }
 .ani-2.clonebottom {
 	animation: rollingright2 90s linear infinite;
-  margin-left: -1px;
 }
 
 @keyframes rollingright1 {
